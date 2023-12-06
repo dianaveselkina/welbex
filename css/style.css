@@ -74,9 +74,37 @@ button:active {
   padding: 0 150px;
 }
 .header {
+  position: relative;
   display: flex;
   flex-direction: row;
   padding: 46px 0 90px;
+}
+.sphere1 {
+  z-index: 2;
+  width: 60px;
+  height: 60px;
+  background: url('..//img/purple_ball.png') center/cover;
+  position: absolute;
+  top: 0px;
+  right: 680px;
+}
+.sphere2 {
+  z-index: 2;
+  width: 83px;
+  height: 83px;
+  background: url('..//img/red_ball.png') center/cover;
+  position: absolute;
+  top: 60px;
+  right: 1026px;
+}
+.sphere3 {
+  z-index: 3;
+  width: 250px;
+  height: 250px;
+  background: url('..//img/purple_light1.png') center/cover;
+  position: absolute;
+  top: 0px;
+  right: 750px;
 }
 .header__logo {
   max-width: 140px;
@@ -127,9 +155,28 @@ a {
   padding: 0 30px;
 }
 .main {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.sphere4 {
+  z-index: 2;
+  width: 311px;
+  height: 311px;
+  background: url('..//img/red_light.png') center/cover;
+  position: absolute;
+  top: 51px;
+  right: 980px;
+}
+.sphere5 {
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background: url('..//img/red_ball_small.png') center/cover;
+  position: absolute;
+  top: 319px;
+  right: 393px;
 }
 .call__title {
   font-family: Inter;
