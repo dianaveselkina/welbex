@@ -126,3 +126,66 @@ a {
 .header__viber {
   padding: 0 30px;
 }
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.call__title {
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.call__text {
+  padding-top: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main__bonus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.bonus__img {
+  padding-bottom: 40px;
+}
+.bonus__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+.bonus__title {
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.bonus__text {
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bonus__button {
+  margin-top: 61px;
+  width: 262px;
+  height: 61px;
+  flex-shrink: 0;
+  background: #4077f3;
+}
+.bonus__skype,
+.bonus__dashboard {
+  justify-items: end;
+}
