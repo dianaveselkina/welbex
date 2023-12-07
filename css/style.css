@@ -86,7 +86,7 @@ button:active {
   background: url('..//img/purple_ball.png') center/cover;
   position: absolute;
   top: 0px;
-  right: 680px;
+  right: 750px;
 }
 .sphere2 {
   z-index: 2;
@@ -95,7 +95,7 @@ button:active {
   background: url('..//img/red_ball.png') center/cover;
   position: absolute;
   top: 60px;
-  right: 1026px;
+  right: 1078px;
 }
 .sphere3 {
   z-index: 3;
