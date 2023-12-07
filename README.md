@@ -10,5 +10,5 @@
 * SVG
 
 
-![banner](https://github.com/dianaveselkina/welbex/blob/main/welbex.jpg)
+![banner](https://github.com/dianaveselkina/welbex/blob/main/welbex_desktop.jpg)
 ![banner](https://github.com/dianaveselkina/welbex/blob/main/welbex_mobile.jpg)
