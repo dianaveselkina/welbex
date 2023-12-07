@@ -1,7 +1,7 @@
 # welbex
 Верстка  по макету Figma<br/> 
 
- [Посмотреть можно здесь...](https://dianaveselkina.github.io/welbex/). 
+ [Посмотреть можно здесь...](https://welbex071223.netlify.app/). 
 
  
 Стек технологий
